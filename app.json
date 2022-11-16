@@ -1,64 +1,66 @@
 {
-  "name": "𝗭𝗧𝗵𝗼𝗻",
-  "description": "〔 سـورس زدثــون 𝗭𝗲𝗱𝗧𝗵𝗼𝗻 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- مطـور السـورس : زلـزال الهيبـه ",
-  "logo": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
-  "keywords": ["plugin","modular","productivity"],
-  "repository": "https://github.com/Zed-Thon/ZelZal",
+  "name": "ريك ثون-𝐑𝐈𝐂𝐊𝐓𝐇𝐎𝐍",
+  "description": "اللهم صلِ على محمد وآل محمد",
+  "logo": "https://telegra.ph/file/bace4f355e4560b4c4db1.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/rick1128/RICKTHONS/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "اســم حســـابك التلـي",
+      "description": "هنا ضع اسم التلجرام الخاص بك",
       "value": ""
     },
     "APP_ID": {
-      "description": "كـود ايبي ايـدي〔 App id 〕الصغيـر",
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
-      "description": "كـود ايبي هـاش〔 Api hash 〕..",
+      "description": "هنا ضع الايبي هاش الخاص بك",
       "value": ""
     },
+    "ENV": {
+      "description": "لا تغير هذه القيمه",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغير هذه القيمه",
+      "value": "."
+    },
     "STRING_SESSION": {
-      "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن حـافظـة حسـابـك",
+      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": "معـــرف البـــوت - من بـوت فـاذر〔 @Botfather 〕بــدون @..",
+      "description": "هنا ضع معرف بوتك بدون @",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
+      "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
     },
-    "COMMAND_HAND_LER": {
-      "description": "نقطـــة الاوامـــر〔 . 〕لا تغيــرهـــا",
-      "value": ".",
-      "required": false
-    },
-    "ENV": {
-      "description": "لا تغيــرهـــا",
-      "value": "ANYTHING",
-      "required": false
-    },
     "HEROKU_API_KEY": {
-      "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه وتنسـخ الكـود لهنـا",
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش صغيـره",
+      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "لا تغيــرهـــا",
-      "value": "zel",
+      "description": "رمز السورس لا تغيره ابدا",
+      "value": "https://github.com/rick1128/rick",
       "required": false
     }
   },
@@ -75,18 +77,14 @@
   },{
     "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
   },{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
   },{
     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
     "url": "heroku/python"
-  }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
+  }]
 }
