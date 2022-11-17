@@ -12,15 +12,15 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "اســم حســـابك التلـي",
+      "description": " اســم حســـابك التلـي ",
       "value": ""
     },
     "APP_ID": {
-      "description": "كـود ايبي ايـدي〔 App id 〕الصغيـر", 
+      "description": " كـود ايبي ايـدي〔 App id 〕الصغيـر ", 
       "value": ""
     },
     "API_HASH": {
-      "description": "كـود ايبي هـاش〔 Api hash 〕",
+      "description": " كـود ايبي هـاش〔 Api hash 〕",
       "value": ""
     },
     "ENV": {
@@ -28,11 +28,11 @@
       "value": "ANYTHING"
     },
     "COMMAND_HAND_LER": {
-      "description": "نقطـــة الاوامـــر〔 . 〕لا تغيــرهــا",
+      "description": " نقطـــة الاوامـــر〔 . 〕لا تغيــرهــا ",
       "value": "."
     },
     "STRING_SESSION": {
-      "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن حـافظـة حسـابـك",
+      "description": " كـــود تيـــرمكـــس - الكـود الكبيـر مـن حـافظـة حسـابـك ",
       "value": ""
     },
     "TG_BOT_USERNAME": {
