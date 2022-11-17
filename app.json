@@ -1,6 +1,6 @@
 {
   "name": "𝗭𝗔𝗜𝗗𝗛𝗢𝗡",
-  "description": "〔 سـورس زيـدثــون 𝗭𝗔𝗜𝗗𝗛𝗢𝗡 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون",
+  "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://te.legra.ph/file/020c856f5c7281db5280e.jpg",
   "keywords": [
     "plugin",
@@ -59,8 +59,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "لا تغيره ابدا",
-      "value": "https://github.com/Earthqu955/Zed",
+      "description": "رمز السورس لا تغيره ابدا",
+      "value": "https://github.com/rick1128/rick",
       "required": false
     }
   },
